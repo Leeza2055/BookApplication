@@ -52,7 +52,7 @@
             //            codes for accessing database
             //            creating database connection con
             
-            Connection con=DriverManager.getConnection("jdbc:derby://localhost:1527/TestDB","username","password");
+            Connection con=DriverManager.getConnection("jdbc:derby://localhost:1527/UserInfoDB [leeza on LEEZA]","leeza","leeza@123");
             
             Statement st=con.createStatement();
             

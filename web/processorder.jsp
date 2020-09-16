@@ -30,7 +30,7 @@
             <%@page import = "java.sql.*"%>
             <%
                 try{
-                Connection conn=DriverManager.getConnection("jdbc:derby://localhost:1527/TestDB","username","password");
+                Connection conn=DriverManager.getConnection("jdbc:derby://localhost:1527/UserInfoDB [leeza on LEEZA]","leeza","leeza@123");
                 Statement stmt=conn.createStatement();
                 String sqlSt;
                 int recordUpdated;
